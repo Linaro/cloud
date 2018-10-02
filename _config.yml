@@ -1,10 +1,10 @@
 # Website title - used in the <title> tag of the <head> section of the website.
-title: Linaro Developer Cloud
+title: Developer Cloud
 # Name of the site - used to identify the site for setting the active class in the universal nav
 name: Linaro Developer Cloud
 # Description of the website used in the Meta Description.
 description: > # this means to ignore newlines until "baseurl:"
-  Linaro Connect Bangkok 2019 (BKK19) will take place on Monday 1 April to Friday 5 April 2019
+  
 # Destination of the Jekyll site upon build of site.
 destination: _site
 # Include the Linaro Jekyll Theme
