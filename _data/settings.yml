@@ -1,7 +1,7 @@
 # Custom Favicon
 favicon: favicon.png
 # Site name
-name: Linaro Connect
+name: Linaro Developer Cloud
 # Site Slogan
 slogan: The leading event for Open source software engineering on Arm
 # Mailchimp settings
@@ -11,7 +11,7 @@ mailchimp:
     unsubscribe-url: https://linaro.us3.list-manage.com/unsubscribe?u=14baaae786342d0d405ee59c2&id=af6cf590b0
 # Footer Newsletter toggle.
 newsletter:
-    enabled: true
+    enabled: false
 tags_enabled: true
 # Footer Image default is linaro sprinkle
 linaro-footer-image: Linaro-Sprinkle.png
@@ -21,8 +21,8 @@ linaro-footer-image: Linaro-Sprinkle.png
 #Content Repo for static site.
 # Used for the edit on github include
 edit-on-github:
-    enabled: true
-    repo: https://www.github.com/Linaro/connect
+    enabled: false
+    repo: https://www.github.com/Linaro/cloud
 # Settings for the home page
 home:
     #Content Background Image E.g. DeviceTree.org
