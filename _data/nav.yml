@@ -1,0 +1,30 @@
+# Search Config
+search:
+    enabled: true
+    label: Connect
+# Universal Nav Bar Toggle
+universal-nav: true    
+# Nav Brand Config
+brand:
+    text: Linaro
+    image: 
+        enabled: true
+        name: /assets/images/content/bkk19-horizontal-dark.png
+    url: /
+pages:
+    - title: About
+      options:
+          - text: Overview
+            url: /about/
+          - text: Future Connect Events
+            url: /future-connects/
+    - title: Attend
+      options:
+          - text: Code of Conduct
+            url: /code-of-conduct/
+    - title: Sponsors
+      url: /sponsors/
+    - title: Resources
+      data: site.data.connects
+    - title: Blog
+      url: /blog/
