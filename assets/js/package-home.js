@@ -9,3 +9,4 @@
 //= require app/home
 //= require app/tables
 //= require app/fly
+//= require app/scrollToTop
