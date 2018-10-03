@@ -2,6 +2,9 @@
 #wrapper.home {
     margin-top: 31px;
 }
+img.fade-in-one.img-responsive.center-block.lazyloaded {
+    height: 200px;
+}
 #homepage-header p#buttons a {
     background-color: $brand-primary;
     color: #fff !important;
@@ -51,8 +54,9 @@ div#featured-jumbotron {
 }
 // Blocks
 .inner-box {
-    border: 1px solid #eee;
+    border: 2px solid #eee;
     padding: 20px;
+    transition: all 1s ease;
 }
 h3.block-heading {
     text-align: center;
@@ -62,4 +66,37 @@ h3.block-heading {
     margin-left: auto;
     position: relative;
     margin-right: auto;
+}
+
+.padded-row {
+    padding: 70px 0px;
+}
+.inner-box:hover {
+    border-color:#27bbdf;
+}
+.col-sm-3.dev-cloud-usp:hover h3 {
+    top: 0px;
+}
+h3.block-heading {
+    transition: all 200ms ease;
+}
+svg#employee-map {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#dev-cloud-world-map {
+    background-color: black;
+}
+
+#dev-cloud-world-map h2 {
+    color: white;
+    text-align: center;
+}
+
+#dev-cloud-world-map p {
+    color: white;
+    text-align: center;
+    margin-bottom:50px;
 }
