@@ -4,7 +4,8 @@ title: Developer Cloud
 name: Linaro Developer Cloud
 # Description of the website used in the Meta Description.
 description: > # this means to ignore newlines until "baseurl:"
-  
+    An open cloud for development in the ARMv8 server ecosystem.
+shop_url: https://linaro.paywhirl.com
 # Destination of the Jekyll site upon build of site.
 destination: _site
 # Include the Linaro Jekyll Theme
