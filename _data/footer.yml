@@ -1,10 +1,4 @@
 # image: Linaro-Logo.svg
-columns:
-    - title: About
-      url: /about/
-      items:
-        - text: Sponsors
-          url: /sponsors/
 companylinks:
     - name: Careers
       url: /careers/
