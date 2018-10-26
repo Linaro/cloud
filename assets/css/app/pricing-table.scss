@@ -309,4 +309,33 @@ ul.nav.nav-tabs {
     ul.nav.nav-tabs {
         margin-top: 50px;
     }
+    ul.nav.nav-tabs>li>a {
+        color: #333;
+        cursor: pointer;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        font-size: 10px;
+        padding: 15px;
+        width: 50px;
+        line-height: 17px;
+        height: 50px;
+        text-align: center;
+        display: inline-block;
+        top: -30px;
+        border-bottom-left-radius: 4px;
+        border-bottom-right-radius: 4px;
+        transition: all 200ms ease;
+    }
+    .pricing-table img.img-responsive.center-block {
+        width: 100%;
+    }
+    .pricing-table img.img-responsive.center-block {
+        height: 12px;
+        margin-bottom: 0px;
+        width: 60px;
+        object-fit: contain;
+    }
+    li.active > a.nav-link {
+        font-size: 10px !important;
+    }
 }
