@@ -1,0 +1,102 @@
+// Adjust the margin-top of the home wrapper to account for the universal nav
+#wrapper.home {
+    margin-top: 31px;
+}
+img.fade-in-one.img-responsive.center-block.lazyloaded {
+    height: 200px;
+}
+#homepage-header p#buttons a {
+    background-color: $brand-primary;
+    color: #fff !important;
+    font-weight: normal;
+    margin-bottom: 50px;
+    border: 0;
+    border-radius: 0px;
+}
+#homepage-header p#buttons a:hover {
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+#homepage-header #home-page-text {
+    top: 20px;
+    font-size: 68px;
+    font-weight: bold;
+    position: relative;
+    text-shadow: #000 1px 1px 7px;
+}
+@media(max-width:$screen-sm-min) {
+    h1#home-page-title.white {
+        font-size: 28px;
+    }
+    #homepage-header #home-page-text {
+        top: 20px;
+        font-size: 42px;
+        position: relative;
+        line-height: 40px;
+    }
+}
+div#featured-jumbotron {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+p#buttons {
+    margin-top: 40px;
+}
+div#featured-jumbotron {
+    margin-bottom: $navbar-height + 20;
+}
+#featured-jumbotron h2,
+#featured-jumbotron h3 {
+    color: white;
+}
+#featured-jumbotron h3 {
+    font-size: 20px;
+}
+// Blocks
+.inner-box {
+    border: 2px solid #eee;
+    padding: 20px;
+    transition: all 1s ease;
+}
+h3.block-heading {
+    text-align: center;
+    background-color: white;
+    width: 100px;
+    top: 23px;
+    margin-left: auto;
+    position: relative;
+    margin-right: auto;
+}
+
+.padded-row {
+    padding: 70px 0px;
+}
+.inner-box:hover {
+    border-color:#27bbdf;
+}
+.col-sm-3.dev-cloud-usp:hover h3 {
+    top: 0px;
+}
+h3.block-heading {
+    transition: all 200ms ease;
+}
+svg#employee-map {
+    background-color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div#dev-cloud-world-map {
+    background-color: black;
+}
+
+#dev-cloud-world-map h2 {
+    color: white;
+    text-align: center;
+}
+
+#dev-cloud-world-map p {
+    color: white;
+    text-align: center;
+    margin-bottom:50px;
+}

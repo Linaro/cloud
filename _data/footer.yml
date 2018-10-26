@@ -1,0 +1,10 @@
+# image: Linaro-Logo.svg
+companylinks:
+    - name: Careers
+      url: /careers/
+    - name: Legal
+      url: /legal/
+    - name: Sitemap
+      url: /sitemap.xml
+    - name: Contact
+      url: /contact/

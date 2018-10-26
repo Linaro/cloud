@@ -1,0 +1,16 @@
+# Search Config
+search:
+    enabled: false
+    label: LinaroCloud
+# Universal Nav Bar Toggle
+universal-nav: true    
+# Nav Brand Config
+brand:
+    text: Linaro
+    image: 
+        enabled: true
+        name: /assets/images/content/ldc.svg
+    url: /
+pages:
+    - title: Support
+      url: /support/

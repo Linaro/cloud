@@ -1,0 +1,312 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+.pricing-table {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pricing-table .block-heading {
+    padding-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.pricing-table .block-heading h2 {
+    color: #3b99e0;
+}
+
+.pricing-table .block-heading p {
+    text-align: center;
+    max-width: 420px;
+    margin: auto;
+    opacity: 0.7;
+}
+#pricing-table .pricing-table .heading {
+    text-align: center;
+    background-color: #08b9e0;
+    padding-top: 8px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.nav-tabs {
+    border-bottom: transparent
+}
+
+.pricing-table .item {
+    background-color: #ffffff;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.075);
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+    margin-bottom: 40px;
+    border: 1px solid #aeafaf;
+}
+
+.pricing-table .item .price {
+    padding: 10px;
+    color: #8a8a8a;
+}
+
+ul.nav.nav-tabs>li {
+    float: none;
+    height: 65px;
+    display: inline;
+    margin: 5px;
+}
+
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:focus {
+    color: #0084ab !important;
+    cursor: pointer;
+    background-color: #e2e2e2 !important;
+    border: 1px solid #0084ab !important;
+    font-size: 14px;
+    padding: 15px;
+    top: -30px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+ul.nav.nav-tabs>li>a {
+    color: #333;
+    cursor: pointer;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    padding: 15px;
+    width: 92px;
+    height: 100px;
+    display: inline-block;
+    top: -30px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    transition: all 200ms ease;
+}
+
+.nav-tabs>li>a:hover {
+    color: #0084ab !important;
+    cursor: pointer;
+    background-color: #e2e2e2;
+    border: 1px solid #0084ab !important;
+    font-size: 14px;
+    padding: 15px;
+    top: -30px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.pricing-table .col-md-5:not(:last-child) .item {
+    margin-bottom: 30px;
+}
+
+.pricing-table .item button {
+    font-weight: 600;
+}
+
+.features {
+    font-size: 14px;
+}
+
+.pricing-table .ribbon {
+    width: 160px;
+    height: 32px;
+    font-size: 12px;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    box-shadow: 0px 2px 3px rgba(136, 136, 136, 0.25);
+    background: #4dbe3b;
+    transform: rotate(45deg);
+    position: absolute;
+    right: -42px;
+    top: 20px;
+    padding-top: 7px;
+}
+
+.pricing-table .item p {
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0.7;
+}
+
+.pricing-table .features .feature {
+    font-weight: 600;
+}
+
+.pricing-table .features h4 {
+    text-align: center;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.pricing-table .price h4 {
+    margin: 15px 0;
+    font-size: 16px;
+    text-align: center;
+    color: #8a8a8a;
+}
+
+span.woocommerce-Price-amount.amount {
+    display: block;
+    font-size: 24px;
+}
+
+.pricing-table .buy-now button {
+    text-align: center;
+    margin: auto;
+    font-weight: 600;
+    padding: 9px 0;
+}
+
+.pricing-table ul.nav.nav-tabs {
+    margin-left: 0px;
+    margin-bottom: 40px;
+    padding-bottom: 1px;
+    text-align: center;
+    height: 62px;
+}
+
+.pricing-table li.nav-item {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features {
+    font-size: 14px;
+    text-align: center;
+}
+
+.heading h3 {
+    font-weight: normal;
+    font-size: 26px;
+    color: #8a8a8a;
+    margin-bottom: 0px;
+}
+
+.pricing-table img.img-responsive.center-block {
+    height: 40px;
+    margin-bottom: 5px;
+    width: 60px;
+    object-fit: contain;
+}
+
+@media(max-width: 400px) {
+    .pricing-table img.img-responsive.center-block {
+        width: 40px;
+    }
+    .pricing-table .item {
+        margin: 0px;
+        margin-bottom: 40px;
+    }
+}
+
+.pricing-table a.nav-link:hover {
+    background-color: #eee;
+}
+
+.pricing-table a.button.add_to_cart_button.product_type_subscription {
+    background-color: #000000 !important;
+    opacity: 1;
+}
+
+.pricing-table a.button.add_to_cart_button.product_type_subscription:hover {
+    background-color: #0284ab !important;
+    opacity: 1;
+}
+
+.pricing-table a.nav-link {
+    padding: 10px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+    background-color: transparent;
+    transition: all 200ms ease;
+}
+
+.pricing-table .nav-item a.nav-link.active {
+    box-shadow: 0 -5px 5px -5px #333;
+    top: 1px;
+    position: relative;
+    padding: 10px;
+    border: 1px solid #131313;
+    margin-bottom: 0px;
+    border-bottom: 1px solid #dadada;
+    background-color: #131313;
+}
+
+small.woocommerce-price-suffix {
+    color: #9f9f9f;
+}
+
+.pricing-table .col-md-4 {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+span.sub-text {
+    display: block;
+    font-size: 11px;
+    text-align: center;
+}
+
+span.main-text {
+    text-align: center;
+    width: 100%;
+}
+
+.col-xs-4.block {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.attributes-row span.main-text {
+    font-size: 14px;
+}
+.col-md-4.medium .image-holder {
+    padding: 30px;
+}
+
+.image-holder img {
+    transition: all 200ms ease;
+}
+
+.image-holder img:hover {
+    transform: scale(1.3);
+}
+
+.col-md-4.nano .image-holder {
+    padding: 0px;
+}
+.col-md-4.small .image-holder {
+    padding: 0px;
+}
+.col-md-4.medium .image-holder {
+    padding: 0px;
+}
+.col-md-4.large .image-holder {
+    padding: 0px;
+}
+
+.col-xs-12.buttons {
+    padding-bottom: 25px;
+}
+
+#pricing-table h3 {
+    margin-top: 0px;
+    color: white;
+    font-size: 20px;
+}
+
+#pricing-table .heading {
+    padding-top: 7px;
+    height: 40px;
+    /* font-size: 16px; */
+}
+#pricing-table .item img.center-block {
+    height: 200px;
+}
+ul.nav.nav-tabs {
+    margin-top: 50px;
+}
+@media(max-width: $screen-sm-min) {
+    ul.nav.nav-tabs {
+        margin-top: 50px;
+    }
+}
