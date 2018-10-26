@@ -63,3 +63,57 @@ a.btn.btn-support:hover {
     border: 1px solid #565656;
     transition: all 200ms ease;
 }
+path.marker {
+    fill: #04c0e3;
+    -webkit-transform: scale(1);
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transition:.3s;
+    transform: scale(5);
+    transform-origin: 50% 50%;
+    transition:.3s;
+    z-index: 9999999;
+    transform-box: fill-box;
+    position: relative;
+    opacity: 1;
+}
+path.marker:hover {
+    fill: #04c0e3;
+    -webkit-transform: scale(1);
+    -webkit-transform-origin: 50% 50%;
+    -webkit-transition:.3s;
+    transform: scale(8);
+    transform-origin: 50% 50%;
+    transition:.3s;
+    z-index: 9999999;
+    transform-box: fill-box;
+    position: relative;
+    opacity: 1;
+}
+
+path.marker.texas {
+    animation: marker-animation 2s linear infinite;
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+}
+path.marker.uk {
+    animation: marker-animation 2s linear infinite;
+    animation-delay: 4s;
+    -webkit-animation-delay: 4s;
+}
+path.marker.shanghai {
+    animation: marker-animation 2s linear infinite;
+    animation-delay: 6s;
+    -webkit-animation-delay: 6s;
+}
+
+@keyframes marker-animation {
+    0% {
+        transform: scale(5);
+    }
+    50% {
+        transform: scale(8);
+    }
+    100% {
+        transform: scale(5);
+    }
+}
