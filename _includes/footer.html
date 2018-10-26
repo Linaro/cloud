@@ -3,33 +3,13 @@
         <footer id="footer">
             <div class="container">
                 <div class="row main-footer-content">
-                    {% for column in site.data.footer.columns %}
-                    <div class="col-xs-6 col-md-2">
-                        <ul class="list-unstyled ">
-                            <li>
-                                <b>
-                                    <a class="footer-heading" href="{% if column.url %}{{column.url}}{% else %}#{% endif %}">{{column.title}}</a>
-                                </b>
-                            </li>
-                            {% if column.items %}
-                                {% for item in column.items %}
-                                    <li>
-                                        <a class="footer-element" href="{{item.url}}">{{item.text}}</a>
-                                    </li>
-                                {% endfor %}
-                            {% endif %}
-                        </ul>
-                    </div>
-                    {% endfor %} {% if site.data.footer.image %}
-                    <div class="col-xs-6 col-md-2">
+                    <div class="col-xs-12 col-md-2">
                         <a href="/">
-                            <img src="{% if site.data.footer.image %}{% asset_path '{{site.data.footer.image}}'  %}{% endif %}" class="footer-logo pull-right"
+                            <img src="/assets/images/content/openstack-powered.png" class="center-block img-responsive footer-logo"
                                 alt="{{site.data.settings.name}}" />
                         </a>
                     </div>
-                    {% endif %}
                 </div>
-
                 <div class="row footer-strip">
                     <div class="container no-padding">
                         <div class="col-md-6 company-footer-bottom">
@@ -39,16 +19,6 @@
                             </a>
                             Copyright &copy; {{ 'now' | date: "%Y" }} Linaro Limited
                             <a href="{{site.data.linaro.url}}">{{site.data.linaro.name}}</a>
-                            {% for link in site.data.footer.company-links %}
-                            <span class="coloured-bp">&bull;</span>
-                            <a href="{{link.url}}">{{link.name}}</a>
-                            {% endfor %} {% if site.data.settings.newsletter.url %}
-                            <span class="coloured-bp">&bull;</span>
-                            <a href="{{site.data.settings.newsletter.url}}">Subscribe to Newsletter</a>
-                            {% else %} {% if site.data.settings.newsletter.enabled %}
-                            <span class="coloured-bp">&bull;</span>
-                            <a href="#" id="open-newsletter-popup">Subscribe to Newsletter</a>
-                            {% endif %} {% endif %}
                         </div>
                         <div class="col-md-6 social-footer-bottom text-right no-padding">
                             {% if site.data.settings.facebook_username %}
@@ -80,7 +50,6 @@
                         <div style="clear:both;"></div>
                     </div>
                 </div>
-                <!--/.container-->
             </div>
         </footer>
     </div>
