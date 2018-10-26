@@ -9,3 +9,44 @@
 #navbar-buttons .btn-group {
     margin-right: 10px;
 }
+@media(max-width: $screen-sm-min) {
+    #navbar-buttons .btn-group {
+        margin-right: 0px;
+    }
+    .inner-box p {
+        text-align: center;
+    }
+    .padded-row {
+        padding: 30px 0px;
+    }
+    ul.nav.nav-tabs {
+        margin-top: 50px;
+    }
+}
+ul#navbar-buttons {
+    text-align: center;
+}
+#homepage-header p#buttons a {
+    background-color: #08b9e0;
+}
+img.fly.img-responsive.center-block.lazyloaded.show-block {
+    height: 100px;
+}
+a.btn.btn-primary.navbar-btn {
+    background-color: red;
+    color: white;
+    transition: all 100ms ease;
+}
+a.btn.btn-primary.navbar-btn:hover {
+    background-color: #751d1d;
+    color: white;
+}
+.footer-logo {
+    display: block;
+    height: 70px;
+    width: auto;
+    transition: all 200ms ease;
+}
+.footer-logo:hover {
+    opacity:.4;
+}
