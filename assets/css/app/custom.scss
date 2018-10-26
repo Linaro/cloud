@@ -75,8 +75,6 @@ path.marker {
     transform-box: fill-box;
     position: relative;
     opacity: 1;
-    animation: marker-animation 2s linear infinite;
-
 }
 path.marker:hover {
     fill: #04c0e3;
@@ -93,15 +91,21 @@ path.marker:hover {
 }
 
 path.marker.texas {
+    /* New code here: */
     animation-delay: 2s;
+    -webkit-animation-delay: 2s;
     animation: marker-animation 2s linear infinite;
 }
 path.marker.uk {
+    /* New code here: */
     animation-delay: 4s;
+    -webkit-animation-delay: 4s;
     animation: marker-animation 2s linear infinite;
 }
 path.marker.shanghai {
+    /* New code here: */
     animation-delay: 6s;
+    -webkit-animation-delay: 6s;
     animation: marker-animation 2s linear infinite;
 }
 
