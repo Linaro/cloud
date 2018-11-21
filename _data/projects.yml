@@ -1,4 +1,4 @@
-- id: uk-nano
+- id: cloud-nano-uk
   image: /assets/images/content/ldc.svg
   location: uk
   project-type: Nano
@@ -6,7 +6,7 @@
   memory: 4
   storage: 25
   price: "10.00"
-- id: uk-small
+- id: cloud-small-uk
   image: /assets/images/content/ldc.svg
   location: uk
   project-type: Small
@@ -14,7 +14,7 @@
   memory: 15
   storage: 100
   price: "70.00"
-- id: uk-medium
+- id: cloud-medium-uk
   image: /assets/images/content/ldc.svg
   location: uk
   project-type: Medium
@@ -22,7 +22,7 @@
   memory: 30
   storage: 250
   price: "125.00"
-- id: uk-large
+- id: cloud-large-uk
   image: /assets/images/content/ldc.svg
   location: uk
   project-type: Large
@@ -30,7 +30,7 @@
   memory: 30
   storage: 500
   price: "375.00"
-- id: china-nano
+- id: cloud-nano-china
   image: /assets/images/content/ldc.svg
   location: china
   project-type: Nano
@@ -38,7 +38,7 @@
   memory: 4
   storage: 25
   price: "10.00"
-- id: china-small
+- id: cloud-small-china
   image: /assets/images/content/ldc.svg
   location: china
   project-type: Small
@@ -46,7 +46,7 @@
   memory: 15
   storage: 100
   price: "70.00"
-- id: china-medium
+- id: cloud-medium-china
   image: /assets/images/content/ldc.svg
   location: china
   project-type: Medium
@@ -54,7 +54,7 @@
   memory: 30
   storage: 250
   price: "125.00"
-- id: china-large
+- id: cloud-large-china
   image: /assets/images/content/ldc.svg
   location: china
   project-type: Large
@@ -62,7 +62,7 @@
   memory: 60
   storage: 500
   price: "375.00"
-- id: usa-nano
+- id: cloud-nano-us
   image: /assets/images/content/ldc.svg
   location: usa
   project-type: Nano
@@ -70,7 +70,7 @@
   memory: 4
   storage: 25
   price: "10.00"
-- id: usa-small
+- id: cloud-small-us
   image: /assets/images/content/ldc.svg
   location: usa
   project-type: Small
@@ -78,7 +78,7 @@
   memory: 15
   storage: 100
   price: "70.00"
-- id: usa-medium
+- id: cloud-medium-us
   image: /assets/images/content/ldc.svg
   location: usa
   project-type: Medium
@@ -86,7 +86,7 @@
   memory: 30
   storage: 250
   price: "125.00"
-- id: usa-large
+- id: cloud-large-us
   image: /assets/images/content/ldc.svg
   location: usa
   project-type: Large
