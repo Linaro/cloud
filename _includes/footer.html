@@ -1,56 +1,54 @@
-<div class="container-fluid footer">
-    <div class="row">
-        <footer id="footer">
-            <div class="container">
-                <div class="row main-footer-content">
-                    <div class="col-xs-12 col-md-2">
-                        <a href="https://www.openstack.org/marketplace/public-clouds/linaro/linaro-developer-cloud">
-                            <img src="/assets/images/content/openstack-powered.png" class="center-block img-responsive footer-logo"
-                                alt="{{site.data.settings.name}}" />
-                        </a>
-                    </div>
-                </div>
-                <div class="row footer-strip">
-                    <div class="container no-padding">
-                        <div class="col-md-6 company-footer-bottom">
-                            <a href="{{site.data.linaro.url}}">
-                                <img src="{% asset_path '{{site.data.settings.linaro-footer-image}}'  %}" class="linaro-logo"
-                                    alt="Linaro Icon" />
-                            </a>
-                            Copyright &copy; {{ 'now' | date: "%Y" }} Linaro Limited
-                            <a href="{{site.data.linaro.url}}">{{site.data.linaro.name}}</a>
-                        </div>
-                        <div class="col-md-6 social-footer-bottom text-right no-padding">
-                            {% if site.data.settings.facebook_username %}
-                            <a href="http://facebook.com/{{site.data.settings.facebook_username}}" class="btn btn-social-icon">
-                                <i class="icon-facebook"></i>
-                            </a>
-                            {% endif %} {% if site.data.settings.github_username %}
-                            <a href="https://github.com/{{site.data.settings.github_username}}" class="btn btn-social-icon">
-                                <i class="icon-github-circled"></i>
-                            </a>
-                            {% endif %} {% if site.data.settings.google_plus_username %}
-                            <a href="https://plus.google.com/{{site.data.settings.google_plus_username}}/posts" class="btn btn-social-icon">
-                                <i class="icon-gplus"></i>
-                            </a>
-                            {% endif %} {% if site.data.settings.linkedin_username %}
-                            <a href="https://www.linkedin.com/company/{{site.data.settings.linkedin_username}}" class="btn btn-social-icon">
-                                <i class="icon-linkedin"></i>
-                            </a>
-                            {% endif %} {% if site.data.settings.twitter_username %}
-                            <a href="https://twitter.com/{{site.data.settings.twitter_username}}" class="btn btn-social-icon">
-                                <i class="icon-twitter"></i>
-                            </a>
-                            {% endif %} {% if site.data.settings.youtube_username %}
-                            <a href="https://www.youtube.com/{{site.data.settings.youtube_username}}" class="btn btn-social-icon">
-                                <i class="icon-youtube"></i>
-                            </a>
-                            {% endif %}
-                        </div>
-                        <div style="clear:both;"></div>
-                    </div>
+<div class="row footer">
+    <footer id="footer">
+        <div class="container">
+            <div class="row main-footer-content">
+                <div class="col-xs-12 text-center">
+                    <a href="https://www.openstack.org/marketplace/public-clouds/linaro/linaro-developer-cloud">
+                        <img src="/assets/images/content/openstack-powered.png" class="center-block img-responsive footer-image"
+                            alt="{{site.data.settings.name}}" />
+                    </a>
                 </div>
             </div>
-        </footer>
-    </div>
+            <div class="row footer-strip">
+                <div class="container no-padding">
+                    <div class="col-md-6 company-footer-bottom">
+                        <a href="{{site.data.linaro.url}}">
+                            <img src="/assets/images/Linaro-Sprinkle.png" class="footer-logo"
+                                alt="Linaro Icon" />
+                        </a>
+                        Copyright &copy; {{ 'now' | date: "%Y" }} Linaro Limited
+                        <a href="{{site.data.linaro.url}}">{{site.data.linaro.name}}</a>
+                    </div>
+                    <div class="col-md-6 social-footer-bottom text-right no-padding">
+                        {% if site.data.settings.facebook_username %}
+                        <a href="http://facebook.com/{{site.data.settings.facebook_username}}" class="btn btn-social-icon">
+                            <i class="icon-facebook"></i>
+                        </a>
+                        {% endif %} {% if site.data.settings.github_username %}
+                        <a href="https://github.com/{{site.data.settings.github_username}}" class="btn btn-social-icon">
+                            <i class="icon-github-circled"></i>
+                        </a>
+                        {% endif %} {% if site.data.settings.google_plus_username %}
+                        <a href="https://plus.google.com/{{site.data.settings.google_plus_username}}/posts" class="btn btn-social-icon">
+                            <i class="icon-gplus"></i>
+                        </a>
+                        {% endif %} {% if site.data.settings.linkedin_username %}
+                        <a href="https://www.linkedin.com/company/{{site.data.settings.linkedin_username}}" class="btn btn-social-icon">
+                            <i class="icon-linkedin"></i>
+                        </a>
+                        {% endif %} {% if site.data.settings.twitter_username %}
+                        <a href="https://twitter.com/{{site.data.settings.twitter_username}}" class="btn btn-social-icon">
+                            <i class="icon-twitter"></i>
+                        </a>
+                        {% endif %} {% if site.data.settings.youtube_username %}
+                        <a href="https://www.youtube.com/{{site.data.settings.youtube_username}}" class="btn btn-social-icon">
+                            <i class="icon-youtube"></i>
+                        </a>
+                        {% endif %}
+                    </div>
+                    <div style="clear:both;"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
 </div>
