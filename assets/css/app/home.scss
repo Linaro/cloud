@@ -2,9 +2,6 @@
 #wrapper.home {
     margin-top: 31px;
 }
-img.fade-in-one.img-responsive.center-block.lazyloaded {
-    height: 200px;
-}
 #homepage-header p#buttons a {
     background-color: $brand-primary;
     color: #fff !important;
@@ -38,9 +35,6 @@ img.fade-in-one.img-responsive.center-block.lazyloaded {
 div#featured-jumbotron {
     margin-top: 20px !important;
     margin-bottom: 20px !important;
-}
-p#buttons {
-    margin-top: 40px;
 }
 div#featured-jumbotron {
     margin-bottom: $navbar-height + 20;
@@ -99,4 +93,7 @@ div#dev-cloud-world-map {
     color: white;
     text-align: center;
     margin-bottom:50px;
+}
+#jumbotron img.img-responsive.center-block {
+    height: 150px;
 }
