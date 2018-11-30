@@ -23,27 +23,15 @@ linaro-footer-image: Linaro-Sprinkle.png
 edit-on-github:
     enabled: false
     repo: https://www.github.com/Linaro/cloud
-# Settings for the home page
-home:
-    #Content Background Image E.g. DeviceTree.org
-    # content-image: background-image.png
-    # If this is set then the navigation will be transparent.
-    transparent-nav: true
-    # If this is set to true then the shape divider will be displayed
-    shaped-divider: false
-    # Jumbotron settings for the home page
-    jumbotron:
-        # Include file to replace all the contents of the jumbotron with.
-        included_file: hero-banner.html
-        # Toggle the jumbotron
-        enabled: true
-        # Background image for the home page located in assets/images
-        background-image:
-            # Darken is set to true by default - if you wish to remove the image overlay
-            # then change this setting to false.
-            darken: true
-            # This is the name of the background-image located in /assets/images/
-            name: bkk19-bg.jpg
+jumbotron:
+    # Darken is set to true by default - if you wish to remove the image overlay
+    # then change this setting to false.
+    darken: true
+error-pages:
+  # image: /assets/images/content/path-to-image.jpg
+  svg: linaro-404.html
+  not-found-title: 404 page not found!
+  not-found-desc: Sorry, but the page you were looking for could not be found.
 # Jekyll social media site settings. Github, LinkedIn, Google+, Facebook and Youtube
 github_username: Linaro
 linkedin_username: 1026961
