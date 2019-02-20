@@ -62,35 +62,35 @@
   memory: 60
   storage: 500
   price: "375.00"
-- id: cloud-nano-us
-  image: /assets/images/content/ldc.svg
-  location: usa
-  project-type: Nano
-  vCPU: 1
-  memory: 4
-  storage: 25
-  price: "10.00"
-- id: cloud-small-us
-  image: /assets/images/content/ldc.svg
-  location: usa
-  project-type: Small
-  vCPU: 2
-  memory: 15
-  storage: 100
-  price: "70.00"
-- id: cloud-medium-us
-  image: /assets/images/content/ldc.svg
-  location: usa
-  project-type: Medium
-  vCPU: 4
-  memory: 30
-  storage: 250
-  price: "125.00"
-- id: cloud-large-us
-  image: /assets/images/content/ldc.svg
-  location: usa
-  project-type: Large
-  vCPU: 8
-  memory: 60
-  storage: 500
-  price: "375.00"
+# - id: cloud-nano-us
+#   image: /assets/images/content/ldc.svg
+#   location: usa
+#   project-type: Nano
+#   vCPU: 1
+#   memory: 4
+#   storage: 25
+#   price: "10.00"
+# - id: cloud-small-us
+#   image: /assets/images/content/ldc.svg
+#   location: usa
+#   project-type: Small
+#   vCPU: 2
+#   memory: 15
+#   storage: 100
+#   price: "70.00"
+# - id: cloud-medium-us
+#   image: /assets/images/content/ldc.svg
+#   location: usa
+#   project-type: Medium
+#   vCPU: 4
+#   memory: 30
+#   storage: 250
+#   price: "125.00"
+# - id: cloud-large-us
+#   image: /assets/images/content/ldc.svg
+#   location: usa
+#   project-type: Large
+#   vCPU: 8
+#   memory: 60
+#   storage: 500
+#   price: "375.00"
