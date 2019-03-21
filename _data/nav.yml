@@ -9,8 +9,8 @@ brand:
     text: Linaro
     image: 
         enabled: true
-        name: /assets/images/content/ldc.svg
+        path: /assets/images/content/ldc.svg
     url: /
 pages:
-    - title: Support
+    - title: Get Support
       url: /support/
