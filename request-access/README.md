@@ -11,7 +11,9 @@ jumbotron:
 ---
 <div class="alert alert-warning" role="alert">
     <p>
-        Linaro Developer Cloud is not accepting new requests at this time! If you would like to be notified when access becomes available again then please subscribe using the following form - 
+        Linaro Developer Cloud is not accepting new requests at this time! If you would like to be notified when access becomes available again then please subscribe by clicking the button below.
+    </p>
+    <p> 
         <a class="btn btn-primary" href="https://mailchi.mp/linaro/developer-cloud-requests">Get Notified</a>
     </p>
 </div>
