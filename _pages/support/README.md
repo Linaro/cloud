@@ -1,7 +1,7 @@
 ---
 title: Support
 permalink: /support/
-layout: container-breadcrumb
+layout: flow
 description: >-
     Here you can find out how to get support with your Developer Cloud products.
 ---

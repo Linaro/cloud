@@ -1,5 +1,5 @@
 ---
-layout: container-breadcrumb
+layout: flow
 title: Sitemap
 description: |-
     Listing of all the sections and links of the Linaro website.
