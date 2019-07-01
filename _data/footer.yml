@@ -1,10 +1,35 @@
-# image: Linaro-Logo.svg
-companylinks:
-    - name: Careers
-      url: /careers/
+# Copyright text to be displayed at the very bottom of the footer
+copyright-text: Linaro Limited
+# Set this to false if you do not want the Linaro logo in the footer.
+linaro-branding: true
+# Social Media Icons Row
+social-media-icons: true
+# These links are displayed at the very bottom of the footer.
+company-links:
     - name: Legal
-      url: /legal/
-    - name: Sitemap
-      url: /sitemap.xml
+      url: https://www.linaro.org/legal/
     - name: Contact
-      url: /contact/
+      url: https://www.linaro.org/contact/
+    - name: Press
+      url: https://www.linaro.org/press/
+second-column:
+    latest-posts: false
+    title: Useful links
+    items:
+      - name: Request Access
+        url: /request-access/
+      - name: Linaro Developer Cloud Support
+        url: /support/
+third-column:
+    title: Other Projects
+    items:
+      - name: 96Boards
+        url: https://www.96boards.org
+      - name: Linaro Connect
+        url: https://connect.linaro.org
+      - name: DeviceTree
+        url: https://www.devicetree.org
+      - name: OP-TEE
+        url: https://www.op-tee.org
+      - name: Linaro Developer Cloud
+        url: https://www.linaro.cloud
