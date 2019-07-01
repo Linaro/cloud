@@ -14,7 +14,6 @@ company-links:
       url: https://www.linaro.org/press/
 middle-column:
     title: Useful links
-    latest-posts: false
     items:
       - name: Request Access
         url: /request-access/
