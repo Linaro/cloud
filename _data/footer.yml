@@ -13,13 +13,14 @@ company-links:
     - name: Press
       url: https://www.linaro.org/press/
 second-column:
+    latest-posts: false
     title: Useful links
     items:
       - name: Request Access
         url: /request-access/
       - name: Linaro Developer Cloud Support
         url: /support/
-last-column:
+third-column:
     title: Other Projects
     items:
       - name: 96Boards
