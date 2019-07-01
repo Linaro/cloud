@@ -5,5 +5,5 @@ _site/*
 assets/.DS_Store
 assets/images/.DS_Store
 production.linaro.cloud
-staging.linaro.org
+staging.linaro.cloud
 Gemfile.lock
