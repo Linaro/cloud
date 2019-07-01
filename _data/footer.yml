@@ -12,7 +12,7 @@ company-links:
       url: https://www.linaro.org/contact/
     - name: Press
       url: https://www.linaro.org/press/
-middle-column:
+second-column:
     title: Useful links
     items:
       - name: Request Access
