@@ -4,3 +4,6 @@ _site/*
 .DS_Store
 assets/.DS_Store
 assets/images/.DS_Store
+production.linaro.cloud
+staging.linaro.cloud
+Gemfile.lock
