@@ -58,9 +58,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - _site
-  # - _posts
   - vendor
   - build-site.sh
+  - check-links.sh
   - production.linaro.cloud
   - staging.linaro.cloud
   - README.md
