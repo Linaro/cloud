@@ -8,9 +8,9 @@
 {% endif %}
 <nav class="
 {% if layout.nav-light %}
-        nav-light 
+        nav-light
 {% elsif page.nav-light %}
-        nav-light 
+        nav-light
 {% endif %}
 navbar-inverse navbar-static" id="main-navigation">
     <!-- NAVBAR HEADER-->
@@ -45,94 +45,14 @@ navbar-inverse navbar-static" id="main-navigation">
     <!-- NAVBAR COLLAPSE-->
     <div class="collapse navbar-collapse" id="navbar-collapse" role="navigation">
         <ul class="nav navbar-nav navbar-right" id="navbar-buttons">
-            {% for section in site.data.nav.pages %}
-            {% if section.options %}
-            <li class="main dropdown menu
-                            {% if section.active_paths %}
-                                {% for active_path in section.active_paths %}
-                                    {% if current_page_url contains active_path %}
-                                        active
-                                        {% break %}
-                                    {% endif %}
-                                {% endfor %}
-                            {% endif %}
-                            {% for menu-item in section.options %}
-                                {% if menu-item.options %}
-                                    {% for sub-item in menu-item.options %}
-                                        {% if current_page_url contains sub-item.url or sub-item.url == current_page_url %}
-                                            {% unless sub-item.url contains "http" %}
-                                                active
-                                                {% break %}
-                                            {% endunless %}
-                                        {% endif %}
-                                    {% endfor %}
-                                {% elsif current_page_url contains menu-item.url or menu-item.url == current_page_url %}
-                                    {% unless menu-item.url contains "http" %}
-                                        active
-                                        {% break %}
-                                    {% endunless %}
-                                {% endif %}
-                            {% endfor %} ">
-                <a {% if section.url %}href="{{section.url}}" {% endif %} class="main-anchor dropdown-toggle"
-                    data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                    {{section.title}} <span class="caret"></span>
-                </a>
-                <ul class="dropdown-menu menu">
-                    {% for menu_option in section.options %}
-                    {% if menu_option.options %}
-                    <li class="dropdown-submenu sub-menu {% if section.left %} pull-left {% endif %}">
-                        <a tabindex="-1" {% if menu_option.url %}href="{{menu_option.url}}"
-                            {% endif %}>{{menu_option.text}}</a>
-                        <ul class="dropdown-menu sub-menu">
-                            {% for sub-option in menu_option.options %}
-                            {% if sub-option.options %}
-                            <li class="dropdown-submenu">
-                                <a {% if sub-option.url %}href="{{sub-option.url}}" {% endif %}>{{sub-option.text}}</a>
-                                <ul class="dropdown-menu">
-                                    {% for sub-sub-option in sub-option.options %}
-                                    <li><a href="{{sub-sub-option.url}}">{{sub-sub-option.text}}</a></li>
-                                    {% endfor %}
-                                </ul>
-                            </li>
-                            {% else %}
-                            <li><a href="{{sub-option.url}}">{{sub-option.text}}</a></li>
-                            {% endif %}
-                            {% endfor %}
-                        </ul>
-                    </li>
-                    {% else %}
-                    <li>
-                        <a target="_self" href="{{menu_option.url}}" class="dropdown-item "
-                            title="{{menu_option.txt}}">{{menu_option.text}} {% if menu_option.external %}<i
-                                class="glyphicon glyphicon-new-window pull-right"></i>{% endif %}</a>
-                    </li>
-                    {% endif %}
-                    {% endfor %}
-                </ul>
-            </li>
-            {% else %}
-            <li class="main {% if section.url == current_page_url or current_page_url contains section.url %}active{% elsif section.active_paths %}
-                                {% for active_path in section.active_paths %}
-                                    {% if current_page_url contains active_path %}
-                                        active
-                                        {% break %}
-                                    {% endif %}
-                                {% endfor %}
-                            {% endif %}">
-                <a class="main-anchor" href="{{section.url}}" title="{{section.title}}">{{section.title}}</a>
-            </li>
-            {% endif %}
-            {% endfor %}
-            {% if site.data.nav.search.enabled %}
-            <li id="search-menu-item">
-                <a href="#search" class="dropdown-toggle" id="search_icon">
-                    <i class="glyphicon glyphicon-search"></i>
-                </a>
-            </li>
-            {% endif %}
             <li>
                 <div class="btn-group">
-                    <a href="/request-access/" class="btn btn-primary navbar-btn">Request Access</a>
+                    <a href="https://servicedesk.linaro.org/servicedesk/customer/portal/11" class="btn btn-primary navbar-btn support">Get Support</a>
+                </div>
+            </li>
+            <li>
+                <div class="btn-group">
+                    <a href="https://servicedesk.linaro.org/servicedesk/customer/portal/19" class="btn btn-primary navbar-btn request_access">Request Access</a>
                 </div>
             </li>
         </ul>
