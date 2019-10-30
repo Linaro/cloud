@@ -2,8 +2,9 @@
 layout: flow
 title: Linaro Developer Cloud
 css-package: home
+permalink: /
 description: |-
-    Get access to the latest Arm Powered, server-class hardware 
+    Get access to the latest Arm Powered, server-class hardware
     running popular development environments such as Debian, CentOS, Ubuntu and RHEL.
 jumbotron:
     triangle-divider: true
