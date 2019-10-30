@@ -17,9 +17,9 @@ second-column:
     title: Useful links
     items:
       - name: Request Access
-        url: /request-access/
+        url: https://servicedesk.linaro.org/plugins/servlet/loginfreeRedirMain?portalid=19&request=265
       - name: Linaro Developer Cloud Support
-        url: /support/
+        url: https://servicedesk.linaro.org/servicedesk/customer/portal/11
 third-column:
     title: Other Projects
     items:
