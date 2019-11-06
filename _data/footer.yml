@@ -10,8 +10,6 @@ company-links:
       url: https://www.linaro.org/legal/
     - name: Contact
       url: https://www.linaro.org/contact/
-    - name: Press
-      url: https://www.linaro.org/press/
 second-column:
     latest-posts: false
     title: Useful links
