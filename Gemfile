@@ -9,6 +9,7 @@ group :jekyll_plugins do
    #gem "therubyracer"
    gem "jekyll-responsive-image"
    gem 'jekyll-include-cache'
+   gem "kramdown-parser-gfm"
 end
 
 
