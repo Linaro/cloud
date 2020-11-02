@@ -14,27 +14,26 @@ To make it easier to contribute to the content, Linaro provides a couple of Dock
 
 To build the site:
 
-```
+```bash
 cd <git repository directory>
 ./build-site.sh
 ```
 
 To build the site and then serve it so that you can check your contribution appears:
 
-```
+```bash
 cd <git repository directory>
 JEKYLLACTION="serve" ./build-site.sh
 ```
 
 To check that your contribution doesn't include any broken links:
 
-```
-
+```bash
 cd <built web site directory>
 ../check-links.sh
 ```
 
-The built web site directory will be `staging.linaro.cloud` unless you set `JEKYLLENV=production` before building the site, in which case the directory will be `production.linaro.cloud`.
+The built web site directory will be `production.linaro.cloud`.
 
 For more information, please see the [build container wiki](https://github.com/linaro-its/jekyll-build-container/wiki) and the [link checker wiki](https://github.com/linaro-its/jekyll-link-checker/wiki).
 
@@ -44,7 +43,7 @@ For more information, please see the [build container wiki](https://github.com/l
 
 We are using [Edge-rewrite](https://github.com/marksteele/edge-rewrite) which is a rewrite engine running in Lambda@Edge. The redirects are to be added to the `_data/routingrules.json` file in the webiste repository following the syntax rules [here](https://github.com/marksteele/edge-rewrite).
 
-```
+```regex
 ^/oldpath/(\\d*)/(.*)$ /newpath/$2/$1 [L]
 !^/oldpath.*$ http://www.example.com [R=302,L,NC]
 ^/topsecret.*$ [F,L]
