@@ -8,6 +8,6 @@ footer_brand:
 # These links are displayed at the very bottom of the footer.
 company_links:
   - name: Legal
-    url: /legal/
+    url: https://www.linaro.org/legal/
   - name: Contact
-    url: /contact/
+    url: https://www.linaro.org/contact/
