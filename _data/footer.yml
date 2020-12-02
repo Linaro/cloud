@@ -1,33 +1,13 @@
 # Copyright text to be displayed at the very bottom of the footer
-copyright-text: Linaro Limited
+copyright_text: Linaro Limited
 # Set this to false if you do not want the Linaro logo in the footer.
-linaro-branding: true
-# Social Media Icons Row
-social-media-icons: true
+footer_brand:
+  url: https://www.linaro.org
+  alt: Linaro Logo
+  path: /assets/images/Linaro-logo-white.png
 # These links are displayed at the very bottom of the footer.
-company-links:
-    - name: Legal
-      url: https://www.linaro.org/legal/
-    - name: Contact
-      url: https://www.linaro.org/contact/
-second-column:
-    latest-posts: false
-    title: Useful links
-    items:
-      - name: Request Access
-        url: https://servicedesk.linaro.org/plugins/servlet/loginfreeRedirMain?portalid=19&request=265
-      - name: Linaro Developer Cloud Support
-        url: https://servicedesk.linaro.org/servicedesk/customer/portal/11
-third-column:
-    title: Other Projects
-    items:
-      - name: 96Boards
-        url: https://www.96boards.org
-      - name: Linaro Connect
-        url: https://connect.linaro.org
-      - name: DeviceTree
-        url: https://www.devicetree.org
-      - name: OP-TEE
-        url: https://www.op-tee.org
-      - name: Linaro Developer Cloud
-        url: https://www.linaro.cloud
+company_links:
+  - name: Legal
+    url: https://www.linaro.org/legal/
+  - name: Contact
+    url: https://www.linaro.org/contact/

@@ -1,11 +1,10 @@
 # Website title - used in the <title> tag of the <head> section of the website.
-title: Developer Cloud
+title: Linaro Developer Cloud
 # Name of the site - used to identify the site for setting the active class in the universal nav
 name: Linaro Developer Cloud
 # Description of the website used in the Meta Description.
 description: > # this means to ignore newlines until "baseurl:"
-    An open cloud for development in the ARMv8 server ecosystem.
-shop_url: https://linaro.paywhirl.com
+  An open cloud for development in the ARMv8 server ecosystem.
 # Destination of the Jekyll site upon build of site.
 destination: _site
 # Include the Linaro Jekyll Theme
@@ -29,30 +28,30 @@ safe: false
 search-label: LinaroCloud
 # Disqus Comments settings.
 disqus: true
-disqus_shortname: 'linarocloud'
+disqus_shortname: "linarocloud"
 # This is the url that is used when your site is built for canonicals etc.
 url: "https://www.linaro.cloud"
 # Make sure that Liquid errors stop the build
 liquid:
-    error_mode: strict
+  error_mode: strict
 # Shema.org Setup -> used in the schema.html include.
 schema:
-    organisation:
-        name: Linaro Cloud
-        url: https://www.linaro.cloud
-        sameAs:
-            - https://twitter.com/linaroorg
-            - https://www.facebook.com/LinaroOrg
-            - https://www.linkedin.com/company/1026961/
-            - https://plus.google.com/+LinaroOnAir
-            - https://github.com/Linaro
-            - https://www.slideshare.net/linaroorg
-        address:
-            street: Harston Mill, Royston Rd
-            town: Harston
-            county: Cambridge
-            post_code: CB22 7GG
-            country_code: UK
+  organisation:
+    name: Linaro Cloud
+    url: https://www.linaro.cloud
+    sameAs:
+      - https://twitter.com/linaroorg
+      - https://www.facebook.com/LinaroOrg
+      - https://www.linkedin.com/company/1026961/
+      - https://plus.google.com/+LinaroOnAir
+      - https://github.com/Linaro
+      - https://www.slideshare.net/linaroorg
+    address:
+      street: Harston Mill, Royston Rd
+      town: Harston
+      county: Cambridge
+      post_code: CB22 7GG
+      country_code: UK
 # Files that should be excluded from the Jekyll build.
 exclude:
   - Gemfile
@@ -79,24 +78,24 @@ social:
     - https://github.com/Linaro
     - https://www.slideshare.net/linaroorg
 twitter:
-    username: linaroorg
+  username: linaroorg
 
 defaults:
   - scope:
-        path: ""
-        type: "posts"
+      path: ""
+      type: "posts"
     values:
-        layout: post
-        comments: false
+      layout: post
+      comments: false
   - scope:
-        path: ""
-        type: "authors"
+      path: ""
+      type: "authors"
     values:
-        layout: author
+      layout: author
   - scope:
-        path: "/sitemap.xml"
+      path: "/sitemap.xml"
     values:
-        redirect_from: /sitemap/
+      redirect_from: /sitemap/
   - scope:
       path: ""
     values:
@@ -120,15 +119,15 @@ plugins:
 
 # Compress the html and beau2tify it.
 jekyll_tidy: # Compress the html and beautify it.
-    compress_html: true
-    exclude: [robots.txt] # Exclude the robots.txt file from removal of whitespace
+  compress_html: true
+  exclude: [robots.txt] # Exclude the robots.txt file from removal of whitespace
 
 # Jekyll Assets plugin - set js and css to true so it compresses on jekyll build
 assets:
   compress:
-        js: true
+    js: true
   autoprefixer:
-      browsers: ["last 2 versions","> 5%","IE 9"]
+    browsers: ["last 2 versions", "> 5%", "IE 9"]
   sources:
     - assets/js/
     - assets/js/vendor/
@@ -144,21 +143,21 @@ assets:
 
 # Sass configuration - compressed and sass_dir of the root Jekyll assets folder.
 sass:
-    style: compressed
-    load_paths:
-        - assets/css
+  style: compressed
+  load_paths:
+    - assets/css
 #paginate_path: /:categories/:num/
 
 # Jekyll Pagination V2 Configuration
 pagination:
-    permalink: '/:num/'
-    enabled: true
-    per_page: 10
-    trail:
-        before: 2
-        after: 2
-    sort_reverse: true
-    sort_field: 'date'
+  permalink: "/:num/"
+  enabled: true
+  per_page: 10
+  trail:
+    before: 2
+    after: 2
+  sort_reverse: true
+  sort_field: "date"
 
 # Jekyll pagination v2 autopages configuration.
 autopages:
@@ -168,18 +167,18 @@ using_assets: true
 
 # Jekyll Collections configuration - Projects, Products and Documentation.
 collections:
-    resources:
-        output: true
-        permalink: /:collection/:categories/:title/
-    keynotes:
-        output: true
-        permalink: /:collection/:path/
-    speakers:
-        output: true
-        permalink: /:collection/:path/
-    authors:
-        output: true
-        permalink: /author/:name/
+  resources:
+    output: true
+    permalink: /:collection/:categories/:title/
+  keynotes:
+    output: true
+    permalink: /:collection/:path/
+  speakers:
+    output: true
+    permalink: /:collection/:path/
+  authors:
+    output: true
+    permalink: /author/:name/
 
 # Jeykyll Responsive Image Configuration
 responsive_image:
@@ -196,7 +195,7 @@ responsive_image:
   # An array of resize configuration objects. Each object must contain at least
   # a `width` value.
   sizes:
-    - width: 400  # [Required] How wide the resized image will be.
+    - width: 400 # [Required] How wide the resized image will be.
       quality: 70 # [Optional] Overrides default_quality for this size.
     - width: 800
       quality: 70
@@ -242,4 +241,210 @@ responsive_image:
     - assets/foo/bar.png
     - assets/bgs/*.png
     - assets/avatars/*.{jpeg,jpg}
-include: ['_pages']
+include: ["_pages"]
+
+
+title: Linaro Developer Cloud
+url: https://www.linaro.cloud
+baseurl: ""
+description: |-
+  An open cloud for development in the ARMv8 server ecosystem.
+destination: _site
+permalink: /:categories/:title/
+theme: linaro-jekyll-theme
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+encoding: utf-8
+safe: false
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - .asset_pipeline
+  - build-site.sh
+  - check-links.sh
+  - CODEOWNERS
+  - README.md
+  - .gitignore
+  - .git
+  - .asset-cache
+  - _static-site
+  - .sass-cache
+  - staging.linaro.cloud
+  - production.linaro.cloud
+# Breadcrumb banner image
+breadcrumb_banner: /assets/images/content/code_banner.jpg
+# Toggle the animated navbar dropdown feature
+# Navbar dropdowns will open on hover
+hover_nav_dropdowns: true
+# Set the class used to animate dropdowns e.g. fade-up / fade-down
+nav_dropdowns_animation_class: fade-down
+# The bootstrap breakpoint at which the navbars will expand
+nav_expand_breakpoint: lg
+sass:
+  style: compressed
+  load_paths:
+    - assets/css
+plugins:
+  - japr
+  - jekyll_picture_tag
+  - jekyll-tidy
+collections:
+  company:
+    output: true
+    permalink: /membership/:name/
+  services:
+    output: true
+  core:
+    output: true
+    permalink: /:collection/:path/
+  authors:
+    output: true
+    permalink: /author/:name/
+  internships:
+    output: true
+    permalink: /careers/internships/:name/
+liquid:
+  error_mode: strict
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/social-media-image.png
+  - scope:
+      path: "_pages"
+    values:
+      layout: flow
+  - scope:
+      type: posts
+      path: "_posts"
+    values:
+      layout: post
+      is_post: true
+      tags_enabled: true
+      comments: false
+      # image: /assets/images/content/code_banner.jpg
+      # strap_image: /assets/images/content/code_banner.jpg
+include: ["_pages"]
+# ----------- THEME / WEBSITE CONFIG ---------------------
+# Blog images/thumbs dir
+blog_images_dir: assets/images/content/
+# Email
+email: contact@linaro.org
+# Company Address
+address:
+  - Harston Mill
+  - Royston Rd, Harston
+  - Cambridge, United Kingdom
+  - CB22 7GG
+# Support for http2 preload features
+http2_resources:
+  - rel: preload
+    as: font
+    type: font/woff2
+    crossorigin: true
+    href: /assets/fonts/lato/Lato-regular.woff2
+google_analytics:
+  enabled: false
+  code: UA-16756069-19
+  cookies:
+    necessary:
+      - name: cookieControl
+        description: >
+          This is used to control the display of the preferences pop up. Without this, we wouldn't know if you've clicked Accept!
+      - name: cookieControlPrefs
+        description: >
+          This is used to store your cookie preferences. Without this we wouldn't know which cookies you want!
+    marketing:
+      - name: _ga
+        description: >
+          2 years - Used to distinguish users.
+      - name: _gid
+        description: >
+          24 hours - Used to distinguish users.
+      - name: _gat
+        description: >
+          1 minute - Used to throttle request rate.
+# Set the site-wide default social media share image.
+social_media_share_image: /assets/images/social-media-image.png
+# Set the default favicon
+favicon: /assets/images/favicon.png
+# Site Name - your brand name
+name: Linaro Developer Cloud
+# Placeholder avatar
+avatar_placeholder: /assets/images/avatar-placeholder.jpg
+# Blog Post Image Placeholder
+post_placeholder: /assets/images/content/linaro-logo.png
+# Social Media Links
+social_media_channels:
+  github:
+    url: https://github.com/Linaro
+  linkedin:
+    url: https://www.linkedin.com/company/1026961
+  facebook:
+    url: http://facebook.com/LinaroOrg
+  youtube:
+    url: https://www.youtube.com/linaroorg
+  twitter:
+    url: https://twitter.com/linaroorg
+  instagram:
+    url: https://instagram.com/linaroorg
+# Disqus Comments Setup
+disqus:
+  enabled: false
+  shortname: Linaro
+# Edit on GitHub Settings
+edit-on-github:
+  enabled: true
+  repo: https://www.github.com/Linaro/cloud
+# Breadcrumb schema
+breadcrumb_schema: true
+# Shema.org settings used in the schema.html include.
+schema:
+  "@context": "https://schema.org"
+  "@type": "Organization"
+  "name": "Linaro"
+  "url": "https://www.linaro.org"
+  "email": "contact@linaro.org"
+  "logo": "https://www.linaro.org/assets/images/content/linaro-logo.png"
+  "contactPoint":
+    "@type": "ContactPoint"
+    "telephone": "01223 400060"
+    "contactType": "customer service"
+    "availableLanguage": "en"
+  "sameAs": "https://www.linaro.org"
+# FESS search label
+search_label: Linaro
+# ----------- JEKYLL PLUGINS ---------------------
+# -------- jekyll-tidy --------
+jekyll_tidy:
+  # Toggle compression of HTML
+  compress_html: true
+  # JS Path added to exclude to stop errors.
+  exclude: ["assets/**/*.js", "robots.txt", "admin/config.yml"]
+# -------- jekyll_relative_links --------
+jekyll_relative_links:
+  process_all_collections: true
+  verbose: 1
+relative_links:
+  enabled: true
+  collections: false
+# -------- jekyll_relative_links --------
+readme_index:
+  enabled: true
+  remove_originals: false
+# -------- jekyll_picture_tag --------
+picture:
+  nomarkdown: false
+  suppress_warnings: true
+  source: ""
+  output: "assets/images"
+  relative_url: true
+# -------- japr --------
+asset_pipeline:
+  bundle: true
+  compress: true
+  output_path: assets/js
+  gzip: true

@@ -1,13 +1,14 @@
-# Search Config
+universal_nav: true
 search:
-    enabled: false
-    label: LinaroCloud
-# Universal Nav Bar Toggle
-universal-nav: true
-# Nav Brand Config
+  enabled: false
+  label: Linaro
+expand_breakpoint: xl
 brand:
-    text: Linaro
-    image:
-        enabled: true
-        path: /assets/images/content/ldc.svg
-    url: /
+  # custom_include: nav/brand.html
+  path: /assets/images/content/ldc.svg
+  alt: Linaro Developer Cloud Logo
+pages:
+  - url: https://servicedesk.linaro.org/servicedesk/customer/portal/11
+    title: Get Support
+  - url: https://servicedesk.linaro.org/plugins/servlet/loginfreeRedirMain?portalid=19&request=265
+    title: Request Access

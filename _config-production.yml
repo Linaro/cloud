@@ -7,3 +7,6 @@ url: "https://www.linaro.cloud"
 destination: production.linaro.cloud
 # Production boolean used in layouts / includes
 production: true
+google_analytics:
+  enabled: true
+  code: UA-16756069-19
