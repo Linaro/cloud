@@ -7,3 +7,5 @@ assets/images/.DS_Store
 production.linaro.cloud
 staging.linaro.cloud
 Gemfile.lock
+.jekyll-cache
+.asset_pipeline
