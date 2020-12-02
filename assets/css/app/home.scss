@@ -1,106 +1,84 @@
 // Adjust the margin-top of the home wrapper to account for the universal nav
 #wrapper.home {
-    margin-top: 31px;
+  margin-top: 31px;
 }
 #homepage-header p#buttons a {
-    background-color: $brand-primary;
-    color: #fff !important;
-    font-weight: normal;
-    margin-bottom: 50px;
-    border: 0;
-    border-radius: 0px;
+  background-color: $primary;
+  color: #fff !important;
+  font-weight: normal;
+  margin-bottom: 50px;
+  border: 0;
+  border-radius: 0px;
 }
 #homepage-header p#buttons a:hover {
-    font-weight: normal;
-    margin-bottom: 50px;
+  font-weight: normal;
+  margin-bottom: 50px;
 }
 #homepage-header #home-page-text {
+  top: 20px;
+  font-size: 68px;
+  font-weight: bold;
+  position: relative;
+  text-shadow: #000 1px 1px 7px;
+}
+@include media-breakpoint-down(sm) {
+  h1#home-page-title.white {
+    font-size: 28px;
+  }
+  #homepage-header #home-page-text {
     top: 20px;
-    font-size: 68px;
-    font-weight: bold;
+    font-size: 42px;
     position: relative;
-    text-shadow: #000 1px 1px 7px;
-}
-@media(max-width:$screen-sm-min) {
-    h1#home-page-title.white {
-        font-size: 28px;
-    }
-    #homepage-header #home-page-text {
-        top: 20px;
-        font-size: 42px;
-        position: relative;
-        line-height: 40px;
-    }
-}
-div#featured-jumbotron {
-    margin-top: 20px !important;
-    margin-bottom: 20px !important;
-}
-div#featured-jumbotron {
-    margin-bottom: $navbar-height + 20;
-}
-#featured-jumbotron h2,
-#featured-jumbotron h3 {
-    color: white;
-}
-#featured-jumbotron h3 {
-    font-size: 20px;
+    line-height: 40px;
+  }
 }
 // Blocks
 .inner-box {
-    border: 2px solid #eee;
-    padding: 20px;
-    transition: all 1s ease;
+  border: 2px solid #eee;
+  padding: 20px;
+  transition: all 1s ease;
 }
 h3.block-heading {
-    text-align: center;
-    background-color: white;
-    width: 100px;
-    top: 23px;
-    margin-left: auto;
-    position: relative;
-    margin-right: auto;
+  text-align: center;
+  background-color: white;
+  width: 100px;
+  top: 23px;
+  margin-left: auto;
+  position: relative;
+  margin-right: auto;
 }
 
 .padded-row {
-    padding: 70px 0px;
+  padding: 70px 0px;
 }
 .inner-box:hover {
-    border-color:#27bbdf;
+  border-color: #27bbdf;
 }
 .col-sm-3.dev-cloud-usp:hover h3 {
-    top: 0px;
+  top: 0px;
 }
 h3.block-heading {
-    transition: all 200ms ease;
-}
-svg#employee-map {
-    background-color: black;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-div#dev-cloud-world-map {
-    background-color: black;
-}
-
-#dev-cloud-world-map h2 {
-    color: white;
-    text-align: center;
-}
-
-#dev-cloud-world-map p {
-    color: white;
-    text-align: center;
-    margin-bottom:50px;
-}
-#jumbotron img.img-responsive.center-block {
-    height: 150px;
+  transition: all 200ms ease;
 }
 #about-linaro {
-    background: #2989d8; /* Old browsers */
-    background: -moz-linear-gradient(top, #2989d8 0%, #ffffff 0%, #d3d3d3 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, #2989d8 0%,#ffffff 0%,#d3d3d3 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, #2989d8 0%,#ffffff 0%,#d3d3d3 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2989d8', endColorstr='#d3d3d3',GradientType=0 ); /* IE6-9 */
+  background: #2989d8; /* Old browsers */
+  background: -moz-linear-gradient(
+    top,
+    #2989d8 0%,
+    #ffffff 0%,
+    #d3d3d3 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    #2989d8 0%,
+    #ffffff 0%,
+    #d3d3d3 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    #2989d8 0%,
+    #ffffff 0%,
+    #d3d3d3 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2989d8', endColorstr='#d3d3d3',GradientType=0 ); /* IE6-9 */
 }
